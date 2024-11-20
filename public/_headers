@@ -1,0 +1,9 @@
+# Create a _headers file in the public directory
+public/_headers
+
+# Add the following content to the _headers file
+/*
+  Content-Type: text/html; charset=UTF-8
+
+/assets/*
+  Content-Type: application/javascript
