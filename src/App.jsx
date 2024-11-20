@@ -5,13 +5,13 @@ import TodoList from "./components/TodoList"
 
 function App() {
 
+  
   const [todos, setTodos] = useState([    
     "Learn React",
     "Learn JSX",
     "Learn JavaScript"])
-
   const [todovalue, setTodoValue] = useState('')
-
+  
   function handleAddTodos(todo) {
     const newTodos = [...todos, todo]
 
@@ -22,10 +22,8 @@ function App() {
     const newTodos = todos.filter((todo, i) => {
       return i !== index
   })
-
-
-
-    setTodos(newTodos)
+  
+      setTodos(newTodos)
   }
 
   function handleEditTodos(index) {
