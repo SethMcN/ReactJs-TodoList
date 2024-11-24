@@ -2,6 +2,8 @@ import { useState, useEffect } from "react"
 
 import ToDoInput from "./components/ToDoInput"
 import TodoList from "./components/TodoList"
+import './index.css' 
+
 
 function App() {
 
