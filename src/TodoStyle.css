@@ -1,4 +1,4 @@
-* {
+body, html {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
@@ -6,12 +6,16 @@
   color: #202124;
 }
 
+.font-press-start {
+  font-family: 'Press Start 2P', system-ui;
+}
+
 h1,
 h2,
 h3,
 input,
 button {
-  font-family: 'Press Start 2P', system-ui;
+  class: font-press-start;
 }
 
 #root {
